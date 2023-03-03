@@ -6,3 +6,8 @@ admin.site.site_header = "farmersCon Admindashboard"
 admin.site.register(Speakers)
 admin.site.register(Sponsers)
 admin.site.register(Faqs)
+admin.site.register(Contact)
+admin.site.register(Category)
+admin.site.register(Blog_post)
+admin.site.register(Questions)
+admin.site.register(Registration)

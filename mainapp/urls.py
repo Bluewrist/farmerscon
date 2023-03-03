@@ -10,4 +10,10 @@ urlpatterns = [
     path('speakers',views.speakers,name='speakers'),
     path('speakers_profile/<int:id>/',views.speakers_detail,name='speakers_profile'),
     path('sponsers',views.sponsers,name='sponsers'),
+    path('contact',views.contact,name='contact'),
+    path('about',views.about,name='about'),
+    path('blog',views.blog,name='blog'),
+    path('blog_detail/<int:id>/',views.blog_detail,name='blog_detail'),
+
+
 ]

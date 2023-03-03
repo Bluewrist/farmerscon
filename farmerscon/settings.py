@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lvd70m73aykw1yjmbe80h=_8)wfn-_1^s@f+8@m9n^xwr)*i$t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['farmerscon.pythonanywhere.com']
 
 
 # Application definition
@@ -129,4 +129,4 @@ MEDIA_URL="/media/"
 MEDIA_ROOT=os.path.join(BASE_DIR,"media")
 
 STATIC_URL="/static/"
-STATIC_ROOT=os.path.join(BASE_DIR,"static")
+STATIC_ROOT="home/farmerscon/farmerscon/static/"
